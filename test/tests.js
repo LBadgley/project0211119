@@ -1,1 +1,1 @@
-import './score-weapons.test.js';
+import './test/score-weapons.test.js';
