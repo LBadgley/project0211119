@@ -11,7 +11,7 @@ import calculateResult from '../src/result/calculate/calculate-result.js';
 // call rateScorecard function and pass scorecard as function;
 
 
-test('', function(assert) {
+test('analyzes answer obj and returns "Viking" if viking has', function(assert) {
     const answers = {
         weapon: 'axe'
 

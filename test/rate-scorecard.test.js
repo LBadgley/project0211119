@@ -1,5 +1,7 @@
 const test = QUnit.test;
+
 import rateScorecard from '../src/result/calculate/rate-scorecard.js';
+
 QUnit.module('rate scorecard');
 
 test('returns "Ninja" if ninja outscores other characters', function(assert) {
