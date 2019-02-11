@@ -1,6 +1,6 @@
 const test = QUnit.test;
 
-import weaponScore from './src/result/calculate/weaponScore.js';
+import weaponScore from '../src/result/calculate/weaponScore.js';
 
 QUnit.module('weapons score');
 // initialized scorecard for each test run

@@ -8,5 +8,8 @@ quizForm.addEventListener('submit', function(event) {
         weapon: formData.get('weapons')
     };
 
-    console.log(answers);
+    const json = JSON.stringify(answers);
+    window.localStorage.setItem('answers', json);
+
+    // route to results page
 });
